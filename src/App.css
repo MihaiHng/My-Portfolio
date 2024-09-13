@@ -1,0 +1,5 @@
+p:hover, span:hover, text:hover, h2:hover, hr:hover, h5:hover, div:hover {
+  color: inherit !important;
+  cursor: default !important;
+}
+
