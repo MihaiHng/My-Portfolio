@@ -62,9 +62,9 @@ function App() {
                   <h2 className="fw-bold fs-3">Hello, I'm Mihai</h2>
                   <hr></hr>
                   <p className="lead">I have created this portfolio because I want to:</p>
-                  <p><i className="bi bi-arrow-right-circle me-2"></i>Develop my blockchain coding skills(Solidity)</p>
+                  <p><i className="bi bi-arrow-right-circle me-2"></i>Develop my web3 coding skills</p>
                   <p><i className="bi bi-arrow-right-circle me-2"></i>Connect with like minded people in the web3 space</p>
-                  <p><i className="bi bi-arrow-right-circle me-2"></i>Find blockchain developer opportunities where I can learn from experienced professionals</p>
+                  {/*<p><i className="bi bi-arrow-right-circle me-2"></i>Find blockchain developer opportunities where I can learn from experienced professionals</p>*/}
                 </div>
               </div>
 
@@ -99,8 +99,35 @@ function App() {
                 <div className="col mb-2">
                   <div className="card bg-transparent border-dark p-1">
                     <div className="card-body">
+                      <h5 className="card-title">Password Shielded Transfer</h5>
+                      <p className="card-text"></p>
+                      <div className="d-flex justify-content-center align-items-center">
+                        {/*<a
+                          className="btn btn-dark fs-6 me-3 shadow"
+                          onClick={() => {
+                            window.open("https://cretetoken.netlify.app/", "_blank", "noopener,noreferrer");
+                          }}
+                        >
+                          App
+                        </a>*/}
+                        <i
+                          className="bi bi-github fs-3"
+                          style={{ cursor: 'pointer', transition: 'color 0.3s', color: '#332D2D' }}
+                          onClick={() => {
+                            window.open("https://github.com/MihaiHng/Password-Shielded-Transfer", "_blank", "noopener,noreferrer");
+                          }}
+                          onMouseOver={(e) => e.currentTarget.style.color = '#605a59'}
+                          onMouseOut={(e) => e.currentTarget.style.color = '#332D2D'}
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col mb-2">
+                  <div className="card bg-transparent border-dark p-1">
+                    <div className="card-body">
                       <h5 className="card-title">ERC20 Token and Faucet</h5>
-                      <p className="card-text">Basic functionality ERC20 token contract with a custom faucet to request free tokens.</p>
+                      <p className="card-text"></p>
                       <div className="d-flex justify-content-center align-items-center">
                         <a
                           className="btn btn-dark fs-6 me-3 shadow"
@@ -127,7 +154,7 @@ function App() {
                   <div className="card bg-transparent border-dark p-1">
                     <div className="card-body">
                       <h5 className="card-title">NFT Minting Website</h5>
-                      <p className="card-text">ERC721 token contract and minting UI, with specific build for the launch of NFT collections.</p>
+                      <p className="card-text"></p>
                       <div className="d-flex justify-content-center align-items-center">
                         <a
                           className="btn btn-dark fs-6 me-3 shadow"
@@ -219,7 +246,7 @@ function App() {
                   className="text-bubble position-absolute"
                   style={{
                     top: '-40px',
-                    left: '50%',
+                    left: '51.3%',
                     transform: 'translateX(-10%)',
                     backgroundColor: '#9FA6B2',
                     color: '#fff',
