@@ -99,17 +99,17 @@ function App() {
                 <div className="col mb-2">
                   <div className="card bg-transparent border-dark p-1">
                     <div className="card-body">
-                      <h5 className="card-title">Password Shielded Transfer</h5>
+                      <h5 className="card-title">Smart Transfer</h5>
                       <p className="card-text"></p>
                       <div className="d-flex justify-content-center align-items-center">
-                        {/*<a
+                        <a
                           className="btn btn-dark fs-6 me-3 shadow"
                           onClick={() => {
-                            window.open("https://cretetoken.netlify.app/", "_blank", "noopener,noreferrer");
+                            window.open("https://smart-transfer.netlify.app/", "_blank", "noopener,noreferrer");
                           }}
                         >
                           App
-                        </a>*/}
+                        </a>
                         <i
                           className="bi bi-github fs-3"
                           style={{ cursor: 'pointer', transition: 'color 0.3s', color: '#332D2D' }}
