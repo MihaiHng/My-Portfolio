@@ -61,7 +61,7 @@ function App() {
                 <div className="text-lg-start text-center order-1 order-lg-1 w-100">
                   <h2 className="fw-bold fs-3">Hello, I'm Mihai</h2>
                   <hr></hr>
-                  <p className="lead">I have created this portfolio because I want to:</p>
+                  <p className="lead">I have created this portfolio to:</p>
                   <p><i className="bi bi-arrow-right-circle me-2"></i>Develop my web3 coding skills</p>
                   <p><i className="bi bi-arrow-right-circle me-2"></i>Connect with like minded people in the web3 space</p>
                   {/*<p><i className="bi bi-arrow-right-circle me-2"></i>Find blockchain developer opportunities where I can learn from experienced professionals</p>*/}
@@ -191,12 +191,10 @@ function App() {
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Hardhat</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">OpenZeppelin</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Ethers/web3</button>
+                  <button type="button" className="btn rounded-pill btn-secondary shadow">Chainlink</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">React</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Vite</button>
-                  <button type="button" className="btn rounded-pill btn-secondary shadow">Bootstrap</button>
-                  <button type="button" className="btn rounded-pill btn-secondary shadow">web3modal</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">VS Code</button>
-                  <button type="button" className="btn rounded-pill btn-secondary shadow">Node.js</button>
                 </div>
               </div>
 
