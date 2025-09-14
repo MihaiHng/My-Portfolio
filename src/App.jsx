@@ -61,8 +61,11 @@ function App() {
                 <div className="text-lg-start text-center order-1 order-lg-1 w-100">
                   <h2 className="fw-bold fs-3">Hello, I'm Mihai</h2>
                   <hr></hr>
-                  <p className="lead">I have created this portfolio to:</p>
-                  <p><i className="bi bi-arrow-right-circle me-2"></i>Develop my web3 coding skills</p>
+                  <p className="lead">I have created this portfolio to strengthen my expertise in smart contracts and Web3 development.</p>
+                  <p className="lead">Focus areas:</p>
+                  <p><i className="bi bi-arrow-right-circle me-2"></i>Solidity smart contract development for EVM-compatible blockchains</p>
+                  <p><i className="bi bi-arrow-right-circle me-2"></i>Smart Contract Security Review and Audit</p>
+                  <p><i className="bi bi-arrow-right-circle me-2"></i>Integrating smart contract logic with modern frontends</p>
                   <p><i className="bi bi-arrow-right-circle me-2"></i>Connect with like minded people in the web3 space</p>
                   {/*<p><i className="bi bi-arrow-right-circle me-2"></i>Find blockchain developer opportunities where I can learn from experienced professionals</p>*/}
                 </div>
@@ -188,6 +191,8 @@ function App() {
                 <div className="card-body d-flex justify-content-start align-items-start flex-wrap gap-3">
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Solidity</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Foundry</button>
+                  <button type="button" className="btn rounded-pill btn-secondary shadow">Fuzzing</button>
+                  <button type="button" className="btn rounded-pill btn-secondary shadow">Invariant Testing</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Hardhat</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">OpenZeppelin</button>
                   <button type="button" className="btn rounded-pill btn-secondary shadow">Ethers/web3</button>
